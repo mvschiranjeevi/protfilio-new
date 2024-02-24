@@ -1,0 +1,1348 @@
+<!--
+  Greetings!
+
+  This delightful template has been meticulously crafted and brought to life by Syed Mohsin. It is generously shared with the world, inviting you to unleash your creativity and tailor it to your heart's content.
+-->
+
+<!-- For any inquiries or collaborations reach out to me at devsyedmohsin@gmail.com -->
+
+<!--
+  Embrace the guidance inscribed within the comments below to fashion an awe-inspiring portfolio of your own.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Read and update content attributes accordingly  -->
+
+    <meta
+      name="description"
+      content="Welcome to my portfolio website. I am a front-end web developer and I specialize in creating user-friendly, responsive and accessible websites. Explore my projects, open-source work and contact me for any inquiries or collaborations."
+    />
+
+    <!-- Google / Search Engine Tags -->
+    <meta itemprop="name" content="Syed Mohsin's Portfolio" />
+    <meta
+      itemprop="description"
+      content="Welcome to my portfolio website. I am a front-end web developer and I specialize in creating user-friendly, responsive and accessible websites. Explore my projects, open-source work and contact me for any inquiries or collaborations."
+    />
+
+    <!-- Reference screenshot of updated site's header in place of content -->
+    <meta itemprop="image" content="assets/images/sharing-card.png" />
+
+    <!-- Facebook Meta Tags -->
+    <meta property="og:url" content="https://ossportfolio.netlify.app" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Syed Mohsin's Portfolio" />
+    <meta
+      property="og:description"
+      content="Welcome to my portfolio website. I am a front-end web developer and I specialize in creating user-friendly, responsive and accessible websites. Explore my projects, open-source work and contact me for any inquiries or collaborations."
+    />
+
+    <!-- Reference screenshot of updated site's header in content -->
+    <meta property="og:image" content="assets/images/sharing-card.png" />
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Syed Mohsin's Portfolio" />
+    <meta
+      name="twitter:description"
+      content="Welcome to my portfolio website. I am a front-end web developer and I specialize in creating user-friendly, responsive and accessible websites. Explore my projects, open-source work and contact me for any inquiries or collaborations."
+    />
+
+    <!-- Reference screenshot of updated site's header in content -->
+    <meta name="twitter:image" content="assets/images/sharing-card.png" />
+
+    <!-- Update favicon href attribute with image of yourself -->
+    <link
+      rel="shortcut icon"
+      href="assets/images/favicons.png"
+      type="image/png"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <!-- Preloading fonts for better performance -->
+
+    <link
+      rel="preload"
+      href="assets/fonts/Mona-Sans.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js"
+      integrity="sha512-1KbKusm/hAtkX5FScVR5G36wodIMnVd/aP04af06iyQTkD17szAMGNmxfNH+tEuFp3Og/P5G32L1qEC47CZbUQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <!-- Your name here -->
+    <title>Chiranjeevi Medam's Portfolio</title>
+  </head>
+
+  <body>
+    <script>
+      const theme = localStorage.getItem("theme") || "dark";
+      document.body.classList.add(theme);
+    </script>
+
+    <header class="header">
+      <div class="menu-btn-container">
+        <div class="container">
+          <button type="button" class="menu-btn">menu</button>
+        </div>
+      </div>
+
+      <nav class="nav hidden">
+        <ol class="nav-items">
+          <li class="nav-item"><a href="#">Home</a></li>
+          <li class="nav-item"><a href="#work">My Work</a></li>
+          <li class="nav-item"><a href="#blog">See Blog</a></li>
+          <li class="nav-item"><a href="#skills">My Skills</a></li>
+          <li class="nav-item">
+            <a href="#contact" data-focused="last-focused">Contact</a>
+          </li>
+        </ol>
+      </nav>
+
+      <div class="container">
+        <div class="header-textbox">
+          <!-- Replace with your name and job title -->
+          <h1 class="h1">
+            Hi, I'm Chiranjeevi Medam<br />
+            Software Engineer
+          </h1>
+          <p>I Am Into <span class="typing-text"></span></p>
+          <!-- Add a small introductory paragraph about yourself -->
+          <p class="header-text">
+            Transforming Passion into Reality: Crafting Exquisite Designs
+            through Code.
+          </p>
+
+          <div class="header-btns">
+            <a href="#about" class="btn btn-cta">About Me</a>
+            <a href="#work" class="btn btn-secondary">See my work</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- About Me-->
+      <section class="about">
+        <div class="about-text-parent">
+          <div class="about-text" id="about">
+            <div class="avatar-container">
+              <img
+                loading="lazy"
+                src="assets/images/testimonials/hero.png"
+                alt="Ideacraft"
+                class="avatar"
+              />
+            </div>
+            <h2 class="h2">Hi, I’m Chiranjeevi. Nice to meet you.</h2>
+            <p>
+              I'm a Master's student hailing from San Jose State University,
+              nestled in the heart of vibrant San Jose, CA, USA. With over three
+              years of professional software development under my belt, I bring
+              a wealth of experience to the table. My journey began with a
+              stellar education at PES University in India, where I honed my
+              skills and laid the foundation for my future endeavors. From
+              there, I embarked on an exciting chapter as a Software Engineer at
+              Novartis in Hyderabad, where I delved deep into the world of
+              software development, gaining invaluable insights along the way.
+              But the adventure didn't stop there. I seized the opportunity to
+              spread my wings further as a Software Intern at Global Payments,
+              broadening my horizons and refining my craft. Currently, I'm
+              leading a dynamic team of three at San Jose State University,
+              managing innovative projects and pushing the boundaries of what's
+              possible in the tech realm. My expertise spans across Full Stack
+              technologies, DevOps Development, and Systems Engineering,
+              allowing me to navigate complex challenges with ease. As an avid
+              open-source contributor, I thrive on collaboration and the spirit
+              of community-driven innovation. When I'm not immersed in code,
+              you'll find me hitting the courts, indulging my passion for
+              basketball, or cheering on my favorite teams from the sidelines.
+              It's all about finding balance and embracing the diverse tapestry
+              of life's experiences. Welcome to my portfolio, where creativity
+              meets functionality, and every line of code tells a story. Let's
+              embark on this journey together, shaping the future, one project
+              at a time.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills-->
+      <section class="client">
+        <div class="container">
+          <h2 class="h2">Tech Stack</h2>
+          <div class="logos">
+            <!-- Replace alt with client/company name and src attributes of images with path to relative img of client logo -->
+            <div class="logo-group">
+              <img
+                loading="lazy"
+                src="assets/images/trusted-by/angular17.svg"
+                alt="Ideacraft"
+                class="logo"
+              />
+
+              <img
+                loading="lazy"
+                src="assets/images/trusted-by/aws.svg"
+                alt="Ideacraft"
+                class="logo hide to-top"
+              />
+              <img
+                loading="lazy"
+                src="assets/images/trusted-by/azure.svg"
+                alt="Ideacraft"
+                class="logo hide to-top"
+              />
+            </div>
+            <div class="logo-group">
+              <img
+                loading="lazy"
+                src="assets/images/trusted-by/bootstrap4.svg"
+                alt="General motors"
+                class="logo"
+              />
+
+              <img
+                loading="lazy"
+                src="assets/images/trusted-by/gitlab.svg"
+                alt="Chippy"
+                class="logo hide to-bottom"
+              />
+              <img
+                loading="lazy"
+                src="assets/images/trusted-by/c++.svg"
+                alt="Shopify"
+                class="logo hide to-bottom"
+              />
+            </div>
+            <div class="logo-group">
+              <img
+                loading="lazy"
+                src="assets/images/trusted-by/django.svg"
+                alt="Ron jones"
+                class="logo"
+              /><img
+                loading="lazy"
+                src="assets/images/trusted-by/docker.svg"
+                alt="Mighty furniture's"
+                class="logo hide to-top"
+              />
+              <img
+                loading="lazy"
+                src="assets/images/trusted-by/gcloud.svg"
+                alt="Mighty furniture's"
+                class="logo hide to-top"
+              />
+            </div>
+            <div class="logo-group">
+              <img
+                loading="lazy"
+                src="assets/images/trusted-by/firebase.svg"
+                alt="Chippy"
+                class="logo"
+              />
+              <img
+                loading="lazy"
+                src="assets/images/trusted-by/ec2.svg"
+                alt="Bulls eye"
+                class="logo hide to-bottom"
+              />
+
+              <img
+                loading="lazy"
+                src="assets/images/trusted-by/flask.svg"
+                alt="Fastlane"
+                class="logo hide to-bottom"
+              />
+            </div>
+          </div>
+
+          <div class="logos">
+            <!-- Replace alt with client/company name and src attributes of images with path to relative img of client logo -->
+            <div class="logo-group">
+              <img
+                loading="lazy"
+                src="assets/images/trusted-by/java.svg"
+                alt="Ideacraft"
+                class="logo"
+              />
+              <img
+                loading="lazy"
+                src="assets/images/trusted-by/graphql.svg"
+                alt="Ideacraft"
+                class="logo hide to-bottom"
+              />
+
+              <img
+                loading="lazy"
+                src="assets/images/trusted-by/html5.svg"
+                alt="Ideacraft"
+                class="logo hide to-bottom"
+              />
+            </div>
+            <div class="logo-group">
+              <img
+                loading="lazy"
+                src="assets/images/trusted-by/kubernetes.svg"
+                alt="General motors"
+                class="logo"
+              />
+
+              <img
+                loading="lazy"
+                src="assets/images/trusted-by/linux.svg"
+                alt="Chippy"
+                class="logo hide to-top"
+              />
+              <img
+                loading="lazy"
+                src="assets/images/trusted-by/mariadb.svg"
+                alt="Shopify"
+                class="logo hide to-top"
+              />
+            </div>
+            <div class="logo-group">
+              <img
+                loading="lazy"
+                src="assets/images/trusted-by/nodejs.svg"
+                alt="Mighty furniture's"
+                class="logo"
+              />
+              <img
+                loading="lazy"
+                src="assets/images/trusted-by/nextjs.svg"
+                alt="Ron jones"
+                class="logo hide to-bottom"
+              /><img
+                loading="lazy"
+                src="assets/images/trusted-by/mysql.svg"
+                alt="Mighty furniture's"
+                class="logo hide to-bottom"
+              />
+            </div>
+            <div class="logo-group">
+              <img
+                loading="lazy"
+                src="assets/images/trusted-by/python.svg"
+                alt="Chippy"
+                class="logo"
+              />
+              <img
+                loading="lazy"
+                src="assets/images/trusted-by/reactjs.svg"
+                alt="Fastlane"
+                class="logo hide to-top"
+              />
+              <img
+                loading="lazy"
+                src="assets/images/trusted-by/redux.svg"
+                alt="Fastlane"
+                class="logo hide to-top"
+              />
+            </div>
+          </div>
+
+          <div class="logos">
+            <!-- Replace alt with client/company name and src attributes of images with path to relative img of client logo -->
+            <div class="logo-group">
+              <img
+                loading="lazy"
+                src="assets/images/trusted-by/spring.svg"
+                alt="Ideacraft"
+                class="logo"
+              />
+
+              <img
+                loading="lazy"
+                src="assets/images/trusted-by/typescript.svg"
+                alt="Ideacraft"
+                class="logo hide to-top"
+              />
+              <img
+                loading="lazy"
+                src="assets/images/trusted-by/js.svg"
+                alt="Ideacraft"
+                class="logo hide to-top"
+              />
+            </div>
+            <div class="logo-group">
+              <img
+                loading="lazy"
+                src="assets/images/trusted-by/mongodb.svg"
+                alt="Agency elevation"
+                class="logo"
+              />
+              <img
+                loading="lazy"
+                src="assets/images/trusted-by/materialui.svg"
+                alt="Shopify"
+                class="logo hide to-top"
+              />
+              <img
+                loading="lazy"
+                src="assets/images/trusted-by/postgresql.svg"
+                alt="Bulls eye"
+                class="logo hide to-top"
+              />
+            </div>
+            <div class="logo-group">
+              <img
+                loading="lazy"
+                src="assets/images/trusted-by/bitbucket.svg"
+                alt="Ideacraft"
+                class="logo"
+              />
+              <img
+                loading="lazy"
+                src="assets/images/trusted-by/chakraui.svg"
+                alt="Shopify"
+                class="logo hide to-bottom"
+              />
+              <img
+                loading="lazy"
+                src="assets/images/trusted-by/css3.svg"
+                alt="Agency elevation"
+                class="logo hide to-top"
+              />
+            </div>
+            <div class="logo-group">
+              <img
+                loading="lazy"
+                src="assets/images/trusted-by/git.svg"
+                alt="Fastlane"
+                class="logo"
+              />
+              <img
+                loading="lazy"
+                src="assets/images/trusted-by/postman.svg"
+                alt="Fastlane"
+                class="logo hide to-bottom"
+              />
+              <img
+                loading="lazy"
+                src="assets/images/trusted-by/json.svg"
+                alt="Fastlane"
+                class="logo hide to-bottom"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="work">
+        <div class="container">
+          <h2 class="h2" id="work">Work Experience</h2>
+          <div class="work-boxes">
+            <div class="work-box">
+              <div class="work-textbox">
+                <!-- Add your project title here -->
+                <h3 class="h3">Research Assistant</h3>
+                <!-- Add small description of your project  -->
+                <p class="work-text">
+                  Leading a team of three to develop learning management system
+                  for San Jose State University.
+                </p>
+                <!-- Add technologies you used to build the project -->
+                <ol class="work-technologies">
+                  <li>React.js</li>
+                  <li>Redux</li>
+                  <li>Node.js</li>
+                  <li>Express.js</li>
+                  <li>MongoDB</li>
+                  <li>Django</li>
+                  <li>AWS</li>
+                  <li>HTML/CSS/BootStrap</li>
+                </ol>
+
+                <div class="work-links">
+                  <!-- Add url of project in href attribute -->
+                  <a
+                    href="https://github.com/AcademicEDM"
+                    target="_blank"
+                    rel="noopener"
+                    class="link"
+                    >Explore this project</a
+                  >
+
+                  <!-- Add link to project source code in href attribute if applicable otherwise feel free to delete or comment the markup -->
+                  <a
+                    href="https://github.com/devsyedmohsin"
+                    target="_blank"
+                    rel="noopener"
+                    title="Source code"
+                  >
+                    <img
+                      src="assets/images/social-links/github.svg"
+                      alt="GitHub"
+                      loading="lazy"
+                    />
+                  </a>
+                </div>
+              </div>
+
+              <div class="work-description">
+                <div class="work-description-heading">
+                  <img
+                    loading="lazy"
+                    src="assets/images/SJSU_Logo.png"
+                    alt="agency elevation"
+                    style="max-width: 200px; height: auto"
+                  />
+
+                  <h3>
+                    <i class="fa fa-calendar"></i>
+                    &nbsp; Sep 2023 - Present
+                  </h3>
+                </div>
+                <!-- Update img src and alt attribute  -->
+                <div class="work-textbox-parllel">
+                  <div class="list-container">
+                    <ol>
+                      <li>
+                        Led a 3 person team to build MyAcademia, a web-based LMS
+                        using React and NodeJS with Redux for state management.
+                      </li>
+                      <li>
+                        Utilized Django web services with Python to fetch and
+                        process over 500 quiz questions from various OpenAI
+                        APIs. Curated a comprehensive question bank by
+                        leveraging large language models (LLMs) and vector
+                        databases, storing the data in PostgreSQL for
+                        application use.
+                      </li>
+                      <li>
+                        Personalized LLM outputs for quiz domain using
+                        retrieval-augmented generation and vector database
+                        modification.
+                      </li>
+                      <li>
+                        Designed a robust four staged CI/CD pipeline leveraging
+                        AWS CodeDeploy and GitHub Actions.
+                      </li>
+                      <li>
+                        Led the development and publication of ReactJS Quiz
+                        module on NPM registry, acquiring 500+ downloads in 9
+                        months.
+                      </li>
+                      <li>
+                        Optimized application memory utilization on AWS EC2
+                        instance by adjusting heap sizes and garbage collection
+                        settings, resolving overload issues and improving
+                        performance by 30%.
+                      </li>
+                    </ol>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div style="display: flex; justify-content: center">
+              <img
+                src="assets/images/square.png"
+                alt="GitHub"
+                loading="lazy"
+                style="
+                  height: 15em;
+                  margin-top: 0;
+                  margin-bottom: 0;
+                  align-content: center;
+                "
+              />
+            </div>
+
+            <div class="work-box">
+              <div class="work-textbox">
+                <!-- Add your project title here -->
+                <h3 class="h3">Software Engineer Intern</h3>
+                <!-- Add small description of your project  -->
+                <p class="work-text">
+                  Encrypted and Tokenized over 15 Million+ rows and 100+ columns
+                  of data and migrated the data from On-Premise to Cloud.
+                </p>
+                <!-- Add technologies you used to build the project -->
+                <ol class="work-technologies">
+                  <li>Java</li>
+                  <li>SprintBoot</li>
+                  <li>React.Js</li>
+                  <li>Kubernetes</li>
+                  <li>Kafka</li>
+                  <li>Jenkins</li>
+                  <li>Argo</li>
+                  <li>HTML/CSS/BootStrap</li>
+                </ol>
+
+                <div class="work-links">
+                  <!-- Add url of project in href attribute -->
+                  <a
+                    href="https://github.com/AcademicEDM"
+                    target="_blank"
+                    rel="noopener"
+                    class="link"
+                    >Explore this project</a
+                  >
+
+                  <!-- Add link to project source code in href attribute if applicable otherwise feel free to delete or comment the markup -->
+                  <a
+                    href="https://github.com/devsyedmohsin"
+                    target="_blank"
+                    rel="noopener"
+                    title="Source code"
+                  >
+                    <img
+                      src="assets/images/social-links/github.svg"
+                      alt="GitHub"
+                      loading="lazy"
+                    />
+                  </a>
+                </div>
+              </div>
+              <div class="work-description">
+                <div class="work-description-heading">
+                  <picture>
+                    <img
+                      loading="lazy"
+                      src="assets/images/gpay_logo.png"
+                      alt="agency elevation"
+                      style="max-width: 200px; height: 400"
+                    />
+                  </picture>
+
+                  <h3>
+                    <i class="fa fa-calendar" style="font-size: 36px"></i>
+                    &nbsp; Jun 2023 - Aug 2023
+                  </h3>
+                </div>
+                <!-- Update img src and alt attribute  -->
+                <div class="work-textbox-parllel">
+                  <div class="image-container"></div>
+                  <div class="list-container">
+                    <ol>
+                      <li>
+                        Built a secure cloud data migration web application
+                        using Spring Boot and ReactJs incorporating encryption
+                        and tokenization mechanisms to improve data security.
+                      </li>
+                      <li>
+                        Optimized application performance by 60% through
+                        implementation of multi-threading techniques including
+                        thread pools and parallel data processing, enabling more
+                        efficient utilization of computing resources.
+                      </li>
+                      <li>
+                        Leveraged connection pooling and caching while accessing
+                        the database, resulting in a 30% reduction in database
+                        latency.
+                      </li>
+                      <li>
+                        Built GraphQL data loader to efficiently batch and cache
+                        data, eliminating duplicate requests and reducing load
+                        times by 40%.
+                      </li>
+                      <li>
+                        Integrated with Kafka message queue alerting system
+                        provisioned with 50 topic partitions for real-time
+                        request tracking and alerts across 1000+ users,
+                        improving incident response time.
+                      </li>
+                      <li>
+                        Configured Jenkins build jobs to compile code, run test
+                        suites, build containers, and deploy images to the
+                        Kubernetes cluster.
+                      </li>
+                      <br />
+                    </ol>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div style="display: flex; justify-content: center">
+              <img
+                src="assets/images/square.png"
+                alt="GitHub"
+                loading="lazy"
+                style="
+                  height: 15em;
+                  margin-top: 0;
+                  margin-bottom: 0;
+                  align-content: center;
+                "
+              />
+            </div>
+
+            <div class="work-box">
+              <div class="work-textbox">
+                <!-- Add your project title here -->
+                <h3 class="h3">Associate Application Developer</h3>
+                <!-- Add small description of your project  -->
+                <p class="work-text">
+                  I have worked here for two and half years and have been
+                  promoted twice, receiving two prestigious awards: the Star
+                  Award and the eAvishkar Award.
+                </p>
+                <!-- Add technologies you used to build the project -->
+                <ol class="work-technologies">
+                  <li>Java</li>
+                  <li>Python</li>
+                  <li>Flask</li>
+                  <li>AWS</li>
+                  <li>Appian</li>
+                  <li>MySQL/MariaDB</li>
+                </ol>
+
+                <div class="work-links">
+                  <!-- Add url of project in href attribute -->
+                  <a
+                    href="https://github.com/AcademicEDM"
+                    target="_blank"
+                    rel="noopener"
+                    class="link"
+                    >Explore this project</a
+                  >
+
+                  <!-- Add link to project source code in href attribute if applicable otherwise feel free to delete or comment the markup -->
+                  <a
+                    href="https://github.com/devsyedmohsin"
+                    target="_blank"
+                    rel="noopener"
+                    title="Source code"
+                  >
+                    <img
+                      src="assets/images/social-links/github.svg"
+                      alt="GitHub"
+                      loading="lazy"
+                    />
+                  </a>
+                </div>
+              </div>
+              <div class="work-description">
+                <div class="work-description-heading">
+                  <img
+                    loading="lazy"
+                    src="assets/images/Novartis-Logo.png"
+                    alt="agency elevation"
+                    style="max-width: 200px; height: auto"
+                  />
+                  <h3
+                    style="text-align: right; margin-left: auto; color: #f47149"
+                  >
+                    <i class="fa fa-calendar" style="font-size: 36px"></i>
+                    &nbsp; Jan 2022 - Aug 2022
+                  </h3>
+                </div>
+                <!-- Update img src and alt attribute  -->
+                <div class="work-textbox-parllel">
+                  <div class="image-container"></div>
+                  <div class="list-container">
+                    <ol>
+                      <li>
+                        Created 7+ Java plugins extending Appian platform
+                        capabilities including Document analysis and Excel
+                        integration.
+                      </li>
+                      <li>
+                        Developed and deployed REST APIs using Flask on AWS,
+                        integrating with Appian to enhance data exchange
+                        efficiency by 60% and streamline cross-platform
+                        communication.
+                      </li>
+                      <li>
+                        Built over seven Appian (a low-code Devlopment platform)
+                        applications based on business reuqirements using SAIL
+                        Language.
+                      </li>
+                      <li>
+                        Led installation of MariaDB and orchestrated a smooth
+                        transition from MySQL to MariaDB within the Appian
+                        platform, leading to a 20% increase in performance and
+                        query time for users.
+                      </li>
+                      <li>
+                        Administered the Appian environment's version control
+                        and handled six upgrade cycles.
+                      </li>
+                      <li>
+                        Integrated Appian with external systems using APIs from
+                        "Automation Anywhere" to launch bots in third party apps
+                        like SAP and National Drug Association.
+                      </li>
+                    </ol>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- <div class="work-box">
+              <div class="work-textbox"> -->
+            <!-- Add your project title here -->
+            <!-- <h3 class="h3">agencyelevation.com</h3> -->
+            <!-- Add small description of your project  -->
+
+            <!-- <p class="work-text">Website for Agency Elevation.</p>
+                <ol class="work-technologies">
+                  <li>React</li>
+                  <li>Gatsby</li>
+                  <li>Material UI</li>
+                </ol>
+                <div class="work-links"> -->
+            <!-- Add url of project in href attribute -->
+            <!-- <a href="#" target="_blank" rel="noopener" class="link"
+                    >Explore this project</a
+                  > -->
+
+            <!-- Add link to project source code in href attribute if applicable otherwise feel free to delete or comment the markup -->
+            <!-- <a
+                    href="http://github.com/devsyedmohsin"
+                    target="_blank"
+                    rel="noopener"
+                    title="Source code"
+                  >
+                    <img
+                      src="assets/images/social-links/github.svg"
+                      alt="GitHub"
+                      loading="lazy"
+                    />
+                  </a>
+                </div>
+              </div> -->
+            <!-- Update img src and alt attribute  -->
+            <!-- <picture class="work-img">
+                <img
+                  loading="lazy"
+                  src="assets/images/work/agency-elevation.webp"
+                  alt="portfolio template"
+                />
+              </picture>
+            </div>
+            <div class="work-box">
+              <div class="work-textbox"> -->
+            <!-- Add your project title here -->
+            <!-- <h3 class="h3">contribute.dev</h3> -->
+            <!-- Add small description of your project  -->
+            <!-- <p class="work-text">
+                  Website for DevX A dedicated space for developer experience
+                </p>
+                <ol class="work-technologies">
+                  <li>Ruby</li>
+                  <li>SvelteKit</li>
+                  <li>Emotion</li>
+                </ol>
+                <div class="work-links"> -->
+            <!-- Add url of project in href attribute -->
+            <!-- <a href="#" target="_blank" rel="noopener" class="link"
+                    >Explore this project</a
+                  > -->
+
+            <!-- Add link to project source code in href attribute if applicable otherwise feel free to delete or comment the markup -->
+            <!-- <a
+                    href="#"
+                    target="_blank"
+                    rel="noopener"
+                    title="Source code"
+                  >
+                    <img
+                      src="assets/images/social-links/github.svg"
+                      alt="GitHub"
+                      loading="lazy"
+                    />
+                  </a>
+                </div>
+              </div> -->
+            <!-- Update img src and alt attribute  -->
+            <!-- <picture class="work-img">
+                <img
+                  loading="lazy"
+                  src="assets/images/work/contribute-dev.webp"
+                  alt="contribute dev"
+                />
+              </picture>
+            </div>  -->
+          </div>
+        </div>
+      </section>
+
+      <!-- I write blog posts on dev.to at https://dev.to/devsyedmohsin. I have linked my articles accordingly, so please update the article title, description, and link accordingly. For example, if you write an article on Medium, link your article to Medium. Also, don't forget to update the reaction count. -->
+
+      <section class="article">
+        <div class="container">
+          <h2 class="h2" id="blog">My Projects</h2>
+          <div class="article-boxes">
+            <article class="article-box featured-article">
+              <div class="article-textbox">
+                <div>
+                  <h1 class="h3">MotoSports</h1>
+                  <h3 class="h3"></h3>
+                  <p class="article-text">
+                    An innovative mobile app designed to provide comprehensive
+                    access to all things about motorsports.
+                  </p>
+                  <h4
+                    style="
+                      text-decoration: underline;
+                      text-underline-position: below;
+                    "
+                  >
+                    Tech Stack
+                  </h4>
+                  <ul>
+                    <li>Next.Js</li>
+                    <li>React Native</li>
+                    <li>TypeScript</li>
+                    <li>Firebase</li>
+                  </ul>
+                </div>
+                <div class="article-info">
+                  <a
+                    href="https://dev.to/devsyedmohsin"
+                    class="link"
+                    target="_blank"
+                    rel="noopener"
+                    >Continue reading</a
+                  >
+                  <span class="reaction-count">
+                    <img src="./assets/images/heart-outline.svg" alt="heart" />
+                    416
+                  </span>
+                </div>
+              </div>
+              <picture class="article-illustration">
+                <img
+                  src="assets/images/hero.png"
+                  alt="MacBook Pro"
+                  loading="lazy"
+                />
+              </picture>
+            </article>
+            <article class="article-box">
+              <div class="article-textbox">
+                <div>
+                  <h3 class="h4">Easy Shuttle</h3>
+                  <div class="article-text">
+                    Crafting a web application aimed at aiding shuttle operators
+                    in enhancing scheduling and optimizing passenger loads.
+                    Additionally, developing route optimization algorithms
+                    utilizing predictive analytics to minimize shuttle commute
+                    duration.
+                  </div>
+                </div>
+                <div class="article-info">
+                  <a
+                    href="https://github.com/mvschiranjeevi/easy_shuttle"
+                    class="link"
+                    target="_blank"
+                    rel="noopener"
+                    >Explore this project</a
+                  >
+                  <span class="reaction-count">
+                    <img
+                      loading="lazy"
+                      src="./assets/images/heart-outline.svg"
+                      alt="heart"
+                    />
+                    350
+                  </span>
+                </div>
+              </div>
+            </article>
+            <article class="article-box">
+              <div class="article-textbox">
+                <div>
+                  <h3 class="h4">Matrix Reloaded</h3>
+                  <p class="article-text">
+                    A true peer-to-peer application facilitating matrix
+                    multiplication through distributed concepts to reduce
+                    workload. Additionally users can monitor peer health through
+                    visualizations.
+                  </p>
+                </div>
+                <div class="article-info">
+                  <a
+                    href="https://github.com/prajwalnadagouda/MatrixReloaded"
+                    class="link"
+                    target="_blank"
+                    rel="noopener"
+                    >Explore this project</a
+                  >
+                  <span class="reaction-count">
+                    <img
+                      src="./assets/images/heart-outline.svg"
+                      alt="heart"
+                      loading="lazy"
+                    />
+                    47
+                  </span>
+                </div>
+              </div>
+            </article>
+            <article class="article-box">
+              <div class="article-textbox">
+                <div>
+                  <h3 class="h4">Event Organisation</h3>
+                  <p class="article-text">
+                    A web platform for exploring endangered animals, organizing
+                    events, and fostering discussion forums.
+                  </p>
+                </div>
+                <div class="article-info">
+                  <a
+                    href="https://github.com/mvschiranjeevi/careForAnimals"
+                    class="link"
+                    target="_blank"
+                    rel="noopener"
+                    >Explore this project</a
+                  >
+                  <span class="reaction-count">
+                    <img
+                      src="./assets/images/heart-outline.svg"
+                      alt="heart"
+                      loading="lazy"
+                    />
+                    177
+                  </span>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Update skills-img src, alt  and title attributes I have added some other logos in assets/images/skill for your convenience feel free to pick one if required  -->
+
+      <!-- <section class="skills">
+        <div class="container">
+          <h2 class="h2" id="skills">My Toolkit</h2>
+          <div class="skills-imgs">
+            <img
+              src="assets/images/skills/react.webp"
+              alt="React"
+              class="skills-img"
+              loading="lazy"
+              title="React"
+            />
+            <img
+              src="assets/images/skills/svelte.webp"
+              alt="Svelte"
+              class="skills-img"
+              loading="lazy"
+              title="Svelte"
+            />
+            <img
+              src="assets/images/skills/typescript.webp"
+              alt="Typescript"
+              class="skills-img"
+              loading="lazy"
+              title="Typescript"
+            />
+            <img
+              src="assets/images/skills/a11y.webp"
+              alt="Accessibility"
+              class="skills-img"
+              loading="lazy"
+              title="Web Accessibility"
+            />
+            <img
+              src="assets/images/skills/shell.webp"
+              alt="Shell"
+              class="skills-img"
+              loading="lazy"
+              title="Shell"
+            />
+            <img
+              src="assets/images/skills/next-js.webp"
+              alt="NextJS"
+              class="skills-img"
+              loading="lazy"
+              title="NextJS"
+            />
+            <img
+              src="assets/images/skills/graphql.webp"
+              alt="Graph Ql"
+              class="skills-img"
+              loading="lazy"
+              title="Graph QL"
+            />
+            <img
+              src="assets/images/skills/git.webp"
+              alt="Git"
+              class="skills-img"
+              loading="lazy"
+              title="Git"
+            />
+            <img
+              src="assets/images/skills/html.webp"
+              alt="CSS"
+              class="skills-img"
+              loading="lazy"
+              title="CSS"
+            />
+            <img
+              src="assets/images/skills/js.webp"
+              alt="JavaScript"
+              class="skills-img"
+              loading="lazy"
+              title="JavaScript"
+            />
+          </div>
+        </div>
+      </section> -->
+
+      <!-- Replace testimonials, author name, author job, img src and, alt attributes -->
+
+      <section>
+        <h2 class="h2">Awards/Contributions</h2>
+        <div class="container">
+          <ol class="testimonials">
+            <li class="testimonial">
+              <blockquote class="testimonial-text">
+                In 2021, I was honored with the prestigious title of Star
+                Performer of the Year among a group of 400 talented individuals
+                at Novartis. This recognition was bestowed upon me in
+                acknowledgment of my exceptional contributions to significant
+                projects within the organization.
+              </blockquote>
+              <!-- <figure class="testimonial-author">
+                <img
+                  src="assets/images/testimonials/rich-harris.png"
+                  alt="Rich Harris"
+                  loading="lazy"
+                />
+                <figcaption>
+                  <h3 class="testimonial-author-name">Harris Kareem</h3>
+                  <p class="testimonial-author-job">Developer @Outlets</p>
+                </figcaption>
+              </figure> -->
+            </li>
+            <li class="testimonial">
+              <blockquote class="testimonial-text">
+                In 2022, I had the privilege of receiving the esteemed eAviskar
+                award for my project "Serial Product Tracking" at Novartis. This
+                recognition was particularly meaningful as it was awarded among
+                30 competing teams.
+              </blockquote>
+              <!-- <figure class="testimonial-author">
+                <img
+                  src="assets/images/testimonials/frank-mcsherry.webp"
+                  alt="Andrew Mead"
+                  loading="lazy"
+                />
+                <figcaption>
+                  <h3 class="testimonial-author-name">Andrew Mead</h3>
+                  <p class="testimonial-author-job">Chief Scientist @Logos</p>
+                </figcaption>
+              </figure> -->
+            </li>
+            <li class="testimonial">
+              <blockquote class="testimonial-text">
+                I had the pleasure of contributing to the development and
+                publication of a quiz module on the npm registry. Over nine
+                months, our efforts paid off as the module gained significant
+                traction, amassing over 500 downloads.
+              </blockquote>
+              <!-- <figure class="testimonial-author">
+                <img
+                  src="assets/images/testimonials/brian-hirsh.png"
+                  alt="Brian Hirsh"
+                  loading="lazy"
+                />
+                <figcaption>
+                  <h3 class="testimonial-author-name">Brian Hirsh</h3>
+                  <p class="testimonial-author-job">Head @Zero-in</p>
+                </figcaption>
+              </figure> -->
+            </li>
+            <!-- <li class="testimonial">
+              <blockquote class="testimonial-text">
+                Syed is a true professional with amazing talent. He is a
+                creative thinker, has his finger on the pulse of whats to come,
+                and absolutely one of the quickest and best problem solvers I
+                have ever met.
+              </blockquote>
+              <figure class="testimonial-author">
+                <img
+                  src="assets/images/testimonials/adam.png"
+                  alt="Adam Argalye"
+                  loading="lazy"
+                />
+                <figcaption>
+                  <h3 class="testimonial-author-name">Adam Argalye</h3>
+                  <p class="testimonial-author-job">SWE @Google</p>
+                </figcaption>
+              </figure>
+            </li>
+            <li class="testimonial">
+              <blockquote class="testimonial-text">
+                Syed is one of my favourite people to work with. He's my go-to
+                colleague when trouble shooting any new technique or technology
+                because she understands how to tackle unknown problems with
+                gumption.
+              </blockquote>
+              <figure class="testimonial-author">
+                <img
+                  src="assets/images/testimonials/val-head.png"
+                  alt="Val Head"
+                  loading="lazy"
+                />
+                <figcaption>
+                  <h3 class="testimonial-author-name">Val Head</h3>
+                  <p class="testimonial-author-job">CEO @Engines</p>
+                </figcaption>
+              </figure>
+            </li>
+            <li class="testimonial">
+              <blockquote class="testimonial-text">
+                Syed is a talented artist. He is very experienced with various
+                media and can make any project you are working on look good. He
+                is easy to work with and is a self starter. I would work with
+                Syed again.
+              </blockquote>
+              <figure class="testimonial-author">
+                <img
+                  src="assets/images/testimonials/tim-satterwhite.webp"
+                  alt="Gary Simon"
+                  loading="lazy"
+                />
+                <figcaption>
+                  <h3 class="testimonial-author-name">Gary Simon</h3>
+                  <p class="testimonial-author-job">A11y Advocate @W3C</p>
+                </figcaption>
+              </figure>
+            </li> -->
+          </ol>
+        </div>
+      </section>
+
+      <section class="contact">
+        <div class="container">
+          <h2 class="h2" id="contact">Send Message</h2>
+          <div class="contact-content">
+            <div class="contact-textbox">
+              <!-- Please comment this component if you're not available for hire -->
+              <strong href="#" class="hire-alert">
+                <span class="indicator"></span>
+                Available for hire
+              </strong>
+              <p class="contact-text">
+                As a software engineer, I construct web interfaces and design
+                systems with a special love for accessibility and the
+                performance. I tend to code things from scratch and enjoy
+                bringing ideas to life.
+              </p>
+              <p class="contact-text">
+                I'm also an open-source developer, and in my spare time, I do
+                digital art with my iPad Pro.
+              </p>
+              <!-- Replace src with your signatures and name -->
+              <img
+                src="assets/images/signatures.png"
+                alt="Syed Mohsin"
+                class="signatures"
+                loading="lazy"
+              />
+            </div>
+            <form action="#" class="contact-form" netlify>
+              <div class="form-field">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" required />
+              </div>
+              <div class="form-field">
+                <label for="email">Email</label>
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  required
+                  inputmode="email"
+                />
+              </div>
+              <div class="form-field">
+                <label for="message">How can I help you?</label>
+                <textarea name="message" id="message" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-cta">Send</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <!-- Update href and src attributes -->
+          <nav>
+            <ol class="footer-links">
+              <li class="footer-link">
+                <a
+                  title="GitHub"
+                  href="https://github.com/mvschiranjeevi/"
+                  target="_blank"
+                  rel="noopener"
+                  ><img
+                    loading="lazy"
+                    src="assets/images/social-links/github.svg"
+                    alt="GitHub"
+                /></a>
+              </li>
+
+              <li class="footer-link">
+                <a
+                  title="Linkedin"
+                  href="https://www.linkedin.com/in/chiranjeevi-medam/"
+                  target="_blank"
+                  rel="noopener"
+                  ><img
+                    loading="lazy"
+                    src="assets/images/social-links/linkedin.svg"
+                    alt="Linkedin"
+                /></a>
+              </li>
+              <li class="footer-link">
+                <a
+                  title="Twitter"
+                  href="https://www.linkedin.com/in/chiranjeevi-medam/"
+                  target="_blank"
+                  rel="noopener"
+                  ><img
+                    loading="lazy"
+                    src="assets/images/social-links/twitter.svg"
+                    alt="Twitter"
+                /></a>
+              </li>
+            </ol>
+          </nav>
+          <p class="footer-text">
+            &copy; <span>2024</span> - Template designed & developed by
+            <a
+              target="_blank"
+              rel="noopener"
+              href="https://www.linkedin.com/in/chiranjeevi-medam/"
+              >Chiranjeevi Medam.</a
+            >
+          </p>
+          <label class="theme-switch" for="theme-switch">
+            <span>Dark Theme</span>
+            <input type="checkbox" id="theme-switch" role="switch" />
+          </label>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
