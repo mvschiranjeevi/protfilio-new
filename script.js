@@ -17,7 +17,6 @@ function isInViewport(element) {
   );
 }
 
-// Function to add animation class when section is in viewport
 function addAnimation() {
   const section = document.getElementById("about");
   const heading = section.querySelector("h2");
@@ -26,11 +25,10 @@ function addAnimation() {
   if (isInViewport(section)) {
     heading.classList.add("animate");
     paragraph.classList.add("animate");
-    window.removeEventListener("scroll", addAnimation); // Remove event listener once animations are triggered
+    window.removeEventListener("scroll", addAnimation);
   }
 }
 
-// Event listener to trigger animation when scrolling
 window.addEventListener("scroll", addAnimation);
 
 const toggleNav = () => {
@@ -143,12 +141,49 @@ yearEl.textContent = new Date().getFullYear();
 var typed = new Typed(".typing-text", {
   strings: [
     "Full Stack Development",
-    "DevOps Development",
+    "Distributed Systems",
     "System Engineering",
-    "Software Testing",
+    "DevOps Engineering",
   ],
   loop: true,
   typeSpeed: 50,
   backSpeed: 25,
   backDelay: 500,
+});
+
+document.addEventListener("DOMContentLoaded", function () {
+  const projectsSection = document.getElementById("projects");
+  const boxes = document.querySelectorAll(".article-box");
+  console.log(boxes);
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        boxes.forEach((box) => {
+          box.classList.add("animate");
+        });
+        // Stop observing once animation is triggered
+        observer.unobserve(entry.target);
+      }
+    });
+  });
+
+  boxes.forEach((box) => {
+    observer.observe(box);
+  });
+
+  const projectsSectionInView = () => {
+    const bounding = projectsSection.getBoundingClientRect();
+    return (
+      bounding.top >= 0 &&
+      bounding.bottom <=
+        (window.innerHeight || document.documentElement.clientHeight)
+    );
+  };
+
+  if (projectsSectionInView()) {
+    boxes.forEach((box) => {
+      box.classList.add("animate");
+    });
+  }
 });

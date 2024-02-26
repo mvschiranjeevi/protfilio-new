@@ -6,10 +6,6 @@ Give star ⭐ if you find it useful. [Visit site &rarr;](https://opensource-port
 
 ![Portfolio Template Gif](assets/images/portfolio-template.gif)
 
-## Useful resources
-
-Make sure to subscribe to our [youtube channel](https://www.youtube.com/@nisarhassan12) channel where we cover creating template like this from scratch using HTML, CSS and JavaScript and also don't forget to star 🌟 the [css-tips-tricks](https://github.com/devsyedmohsin/css-tips-tricks) that has already reached 180+ stars.
-
 ## Table of Contents
 
 1. [Features](#key-features)
@@ -42,10 +38,10 @@ Follow these three steps to fashion an awe-inspiring portfolio of your own.
 If you have [Git](https://git-scm.com/) installed on your computer, you can simply clone or download the portfolio template by running the following command in your terminal.
 
 ```bash
-git clone https://github.com/devsyedmohsin/portfolio-template
+git clone https://github.com/mvschiranjeevi/protfilio-new
 ```
 
-Alternatively, click on this [link](https://github.com/devsyedmohsin/portfolio-template/archive/refs/heads/main.zip) to download it.
+Alternatively, click on this [link](https://github.com/mvschiranjeevi/portfolio-template/archive/refs/heads/main.zip) to download it.
 
 ### Editing the Template
 
@@ -56,16 +52,16 @@ You will find a file named `index.html` open it and follow the guidance inscribe
 
 ```html
 <!-- Update with your name -->
-<title>Syed Mohsin's Portfolio</title>
+<title>Chiranjeevi Portfolio</title>
 ```
 
 ```html
 <div class="header-textbox">
   <!-- Replace with your name & job title -->
-  <h1 class="h1">Hi, I'm Syed Mohsin Frontend Web Developer</h1>
+  <h1 class="h1">Hi, I'm Chiranjeevi, a Software Enginner</h1>
 
   <!-- Add a small introductory paragraph about yourself -->
-  <p class="header-text">A frontend software engineer and interface designer</p>
+  <p class="header-text">A software engineer and architect</p>
 </div>
 ```
 
